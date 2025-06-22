@@ -1,3 +1,6 @@
+## Purpose
+Purpose of the lab work is to understand how different models could be used on a dataset to determine the best model in terms of performance based on various score like MAE, MSE etc. Using this to predict the progression diabetes in patients. 
+
 ## Thoughts
 
 If we compare the score of simple vs multiple linear regression. I think simple regression has a narrowed set of factors. If we compare the R2 and RMSE scores:
@@ -16,5 +19,10 @@ On the other hand, when the alpha is 10, the lasso model fails drastically. We c
 Regularization helps prevent overfitting and improves generalization. 
 
 Finally I would say the best performing model would be the ridge regression with a alpha of 0.001. It provided good R2 score and lowest RMSE on test set. 
+
+
+
+## Any challenges faced or decisions made during the lab. 
+I would say visualizing the different types of data for different model based on thier particular input. Understanding how the polynomial degree contributed to different outputs. Same for Ridge and Lasso regularization, I was wondering how the different alpha model mattered. 
 
 
